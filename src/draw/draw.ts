@@ -89,7 +89,7 @@ function raf() {
 }
 
 function getJacketURL(songId: string) {
-    return `/jackets/jacket_s_${songId.padStart(3, '0')}.png`;
+    return `/jackets/${songId}.png`;
 }
 
 const $currentBackgroundIdx = signal(Math.floor(Math.random() * BG_URLS.length));
@@ -225,7 +225,9 @@ export async function drawImage(containerId: string) {
             fillLinearGradientColorStops: [0, '#7857ff', 1, '#fcacf7'],
             strokeWidth: 2,
             stroke: 'white',
-        }
+        },
+        // uh megamix is just kinda black I guess?
+        'Megamix': { fill: '#111111' }
     };
 
     type Difficulty = keyof typeof badgeColors;
@@ -245,7 +247,8 @@ export async function drawImage(containerId: string) {
     const badges = {
         'Expert': makeBadgeRect("Expert"),
         'Master': makeBadgeRect("Master"),
-        'Append': makeBadgeRect("Append")
+        'Append': makeBadgeRect("Append"),
+        'Megamix': makeBadgeRect("Megamix")
     }
 
     // AP / FC indicator in bottom-right corner
