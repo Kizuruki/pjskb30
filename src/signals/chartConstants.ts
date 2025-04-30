@@ -4,10 +4,10 @@ import { parse } from '@vanillaes/csv';
 
 const API_URL_CSV = 'https://docs.google.com/spreadsheets/d/1AxdRCh55cuaXY_yDnAGmxS9m2rtt_DsKutUyeLPNf6k/export?format=csv&gid=1855810409';
 
-export type Difficulty = "Expert" | "Master" | "Append" | "Megamix";
+export type Difficulty = "Expert" | "Master" | "Append" | "Megamix" | "Hard";
 
 export const isDifficulty = (s: string): s is Difficulty => {
-    return ["Expert", "Master", "Append", "Megamix"].includes(s);
+    return ["Expert", "Master", "Append", "Megamix", "Hard"].includes(s);
 }
 
 export type Song = {
