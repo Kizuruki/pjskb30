@@ -18,7 +18,7 @@ export function MainView() {
                     <p>Mark charts with either AP or FC. The charts are ordered by difficulty. Once you have marked 30 or more charts,
                     charts that would not make it into the b30 are grayed out.</p>
                     <p>You can pin a chart by clicking the "Pinned" column. A pinned chart always appears at the front.</p>
-                    <p><a href="https://github.com/auburnsummer/pjskb30">View GitHub of this project</a></p>
+                    <p><a href="https://github.com/Kizuruki/pjskb30">View GitHub of this project</a></p>
                 </div>
             </article>
             <div class="pb-2 pt-2 is-flex is-flex-direction-row is-gap-1">
