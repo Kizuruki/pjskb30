@@ -228,7 +228,7 @@ export async function drawImage(containerId: string) {
         },
         // Uh megamix is just kinda black I guess?
         'Megamix': { fill: '#111111' },
-        'Hard': { fill: '#FFA902' }
+        'Hard': { fill: '#FF457A' }
     };
 
     type Difficulty = keyof typeof badgeColors;
