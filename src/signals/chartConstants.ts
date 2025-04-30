@@ -7,7 +7,7 @@ const API_URL_CSV = 'https://docs.google.com/spreadsheets/d/1AxdRCh55cuaXY_yDnAG
 export type Difficulty = "Expert" | "Master" | "Append" | "Megamix" | "Hard";
 
 export const isDifficulty = (s: string): s is Difficulty => {
-    return ["Expert", "Master", "Append", "Megamix" | "Hard"].includes(s);
+    return ["Expert", "Master", "Append", "Megamix", "Hard"].includes(s);
 }
 
 export type Song = {
