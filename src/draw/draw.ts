@@ -249,7 +249,7 @@ export async function drawImage(containerId: string) {
         'Expert': makeBadgeRect("Expert"),
         'Master': makeBadgeRect("Master"),
         'Append': makeBadgeRect("Append"),
-        'Megamix': makeBadgeRect("Megamix")
+        'Megamix': makeBadgeRect("Megamix"),
         'Hard': makeBadgeRect("Hard")
     }
 
