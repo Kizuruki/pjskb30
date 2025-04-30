@@ -226,7 +226,7 @@ export async function drawImage(containerId: string) {
             strokeWidth: 2,
             stroke: 'white',
         },
-        // uh megamix is just kinda black I guess?
+        // Uh megamix is just kinda black I guess?
         'Megamix': { fill: '#111111' },
         'Hard': { fill: '#ffa902' }
     };
