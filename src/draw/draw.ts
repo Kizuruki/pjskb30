@@ -227,7 +227,8 @@ export async function drawImage(containerId: string) {
             stroke: 'white',
         },
         // Uh megamix is just kinda black I guess?
-        'Megamix': { fill: '#111111' }
+        'Megamix': { fill: '#111111' },
+        'Hard': { fill: '#ffa902' }
     };
 
     type Difficulty = keyof typeof badgeColors;
@@ -248,7 +249,8 @@ export async function drawImage(containerId: string) {
         'Expert': makeBadgeRect("Expert"),
         'Master': makeBadgeRect("Master"),
         'Append': makeBadgeRect("Append"),
-        'Megamix': makeBadgeRect("Megamix")
+        'Megamix': makeBadgeRect("Megamix"),
+        'Hard': makeBadgeRect("Hard")
     }
 
     // AP / FC indicator in bottom-right corner
