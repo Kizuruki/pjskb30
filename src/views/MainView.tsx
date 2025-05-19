@@ -12,11 +12,11 @@ export function MainView() {
     }
     return (
         <div class="container">
-            <h2 class="is-size-5">B30 Data Entry</h2>
+            <h2 class="is-size-4">Kizu Charts B30 Data Entry</h2>
             <article class="message">
                 <div class="message-body">
-                    <p>Mark charts with either AP or FC. The charts are ordered by difficulty. Once you have marked 30 or more charts,
-                    charts that would not make it into the b30 are grayed out.</p>
+                    <p>Mark charts with either AP or FC. The charts are ordered by difficulty and your scores will create an image with your best 30 scores and average skill level. 
+                    Once you have marked 30 or more charts, charts that would not make it into the b30 are grayed out. </p>
                     <p>You can pin a chart by clicking the "Pinned" column. A pinned chart always appears at the front.</p>
                     <p><a href="https://docs.google.com/spreadsheets/d/1AxdRCh55cuaXY_yDnAGmxS9m2rtt_DsKutUyeLPNf6k/edit?usp=sharing">View Constants Spreadsheet</a></p>
                 </div>
